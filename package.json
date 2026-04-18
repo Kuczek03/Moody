@@ -1,5 +1,8 @@
 {
-  "dependencies": {
-    "react-router-dom": "^7.14.1"
+  "name": "moody-root",
+  "private": true,
+  "scripts": {
+    "install": "cd frontend && npm install",
+    "build": "cd frontend && npm run build"
   }
 }
