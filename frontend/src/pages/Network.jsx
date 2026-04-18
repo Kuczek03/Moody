@@ -2,7 +2,7 @@ import { Users, Link as LinkIcon, Mail, ShieldAlert, Sparkles } from 'lucide-rea
 
 const Network = () => {
   return (
-    <div className="space-y-6 animate-fade-in max-w-2xl mx-auto relative">
+    <div className="space-y-6 animate-fade-in max-w-2xl mx-auto relative pb-24">
       <Sparkles className="absolute -top-4 -left-4 text-yellow-400 animate-bounce" size={48} />
       
       <div className="flex items-center space-x-4 mb-8 bg-white p-4 rounded-3xl y2k-border inline-flex transform rotate-1">
@@ -69,7 +69,7 @@ const Network = () => {
 
           <button 
             type="submit"
-            className="y2k-button w-full text-xl tracking-widest uppercase mt-6"
+            className="y2k-button w-full text-xl tracking-widest uppercase mt-6 mb-4"
           >
             Wyślij zaproszenie 🚀
           </button>

@@ -40,7 +40,7 @@ const Layout = () => {
       </header>
 
       {/* Główna zawartość */}
-      <main className="flex-1 overflow-y-auto p-4 md:p-8 pb-32 md:pb-8 bg-transparent">
+      <main className="flex-1 overflow-y-auto p-4 md:p-8 pb-40 md:pb-16 bg-transparent">
         <div className="max-w-5xl mx-auto h-full">
           <Outlet />
         </div>

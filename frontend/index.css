@@ -9,7 +9,7 @@
 
 @layer utilities {
   .pb-safe {
-    padding-bottom: env(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom, 20px);
   }
   
   .y2k-border {
@@ -20,6 +20,10 @@
     box-shadow: 4px 4px 0px 0px #db2777;
   }
   
+  .y2k-shadow-hover {
+    transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
   .y2k-shadow-hover:hover {
     box-shadow: 6px 6px 0px 0px #db2777;
     transform: translate(-2px, -2px);
@@ -28,8 +32,8 @@
   .y2k-button {
     background-color: #ec4899;
     color: #ffffff;
-    font-weight: 700;
-    padding: 0.75rem 1.5rem;
+    font-weight: 800;
+    padding: 0.875rem 1.75rem;
     border-radius: 9999px;
     transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 3px solid #db2777;
@@ -58,5 +62,14 @@
   
   .y2k-gradient {
     background-image: linear-gradient(to right, #f472b6, #c084fc, #ec4899);
+  }
+
+  /* Hide scrollbar but keep functionality, add padding to avoid clipping shadows */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }

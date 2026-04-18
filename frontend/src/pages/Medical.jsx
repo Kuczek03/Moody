@@ -9,7 +9,7 @@ const Medical = () => {
   ];
 
   return (
-    <div className="space-y-6 animate-fade-in relative">
+    <div className="space-y-6 animate-fade-in relative pb-24">
       <Sparkles className="absolute -top-6 left-1/2 text-pink-300 animate-pulse" size={48} />
       <div className="flex items-center justify-between mb-8">
         <div className="flex items-center space-x-4 bg-white p-4 rounded-3xl y2k-border inline-flex transform -rotate-1">
@@ -79,7 +79,7 @@ const Medical = () => {
           <h4 className="font-black text-2xl text-pink-600 uppercase">Przypomnienie o badaniach 🚨</h4>
           <p className="font-bold text-pink-800 mt-1">Czas wykonać coroczną cytologię i USG piersi.</p>
         </div>
-        <button className="y2k-button whitespace-nowrap">
+        <button className="y2k-button whitespace-nowrap mb-4 sm:mb-0">
           Zaplanuj wizytę
         </button>
       </div>

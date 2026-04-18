@@ -29,7 +29,7 @@ const Wellness = () => {
   ];
 
   return (
-    <div className="space-y-6 animate-fade-in">
+    <div className="space-y-6 animate-fade-in pb-24">
       <div className="flex items-center space-x-4 mb-8 bg-white p-4 rounded-3xl y2k-border inline-flex transform rotate-1">
         <div className="p-3 bg-teal-300 text-teal-800 rounded-full y2k-border">
           <Heart size={32} strokeWidth={3} />
@@ -47,7 +47,7 @@ const Wellness = () => {
         <div className="relative z-10 w-3/4">
           <h3 className="text-2xl font-black mb-2 uppercase">Polecane na dziś</h3>
           <p className="text-pink-100 mb-6 font-bold">Twój dzisiejszy poziom stresu wydaje się być nieco wyższy. Spróbuj krótkiej sesji oddechowej.</p>
-          <button className="y2k-button bg-yellow-300 text-pink-600 hover:bg-yellow-400 uppercase text-sm">
+          <button className="y2k-button bg-yellow-300 text-pink-600 hover:bg-yellow-400 uppercase text-sm mb-4">
             Rozpocznij 🚀
           </button>
         </div>

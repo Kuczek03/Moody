@@ -37,7 +37,7 @@ const articles = [
 
 const Education = () => {
   return (
-    <div className="space-y-6 animate-fade-in relative">
+    <div className="space-y-6 animate-fade-in relative pb-24">
       <Sparkles className="absolute -top-4 right-4 text-pink-300 animate-spin-slow" size={40} />
       <div className="flex items-center space-x-4 mb-8 bg-white p-4 rounded-3xl y2k-border inline-flex transform rotate-2">
         <div className="p-3 bg-purple-300 text-purple-800 rounded-full y2k-border">
